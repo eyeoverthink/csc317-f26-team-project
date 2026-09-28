@@ -75,6 +75,15 @@ demo-able at all times — it is what you present from.
 
 ## Deploying
 
-`main` deploys `public/` to GitHub Pages via `.github/workflows/pages.yml`.
-Pages on a private repository requires a paid GitHub plan; if the action fails with
-a plan error, either make the repository public or deploy from a teammate's account.
+`main` deploys `public/` to GitHub Pages via `.github/workflows/pages.yml`, at:
+
+    https://eyeoverthink.github.io/csc317-f26-team-project/
+
+Pages is already enabled on this repository with a workflow build type. If a
+milestone demo needs a URL, push to `main` and the workflow publishes it.
+
+Note: GitHub Pages requires the site to be public, so `public/` is readable by
+anyone with the link even though the repository itself is private. Do not put
+anything private in `public/`. If the course requires the site to stay
+unpublished, disable Pages in Settings → Pages. If you would rather not present a
+Pages URL at all, delete the workflow and demo from a local server instead.
