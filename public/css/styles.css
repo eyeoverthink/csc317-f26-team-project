@@ -1,0 +1,15 @@
+/* Milestone 1: layout via Grid, components via Flexbox, responsive at 3
+   breakpoints, and a deliberate colour scheme. Replace this placeholder. */
+
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  line-height: 1.6;
+  color: var(--fg);
+  background: var(--bg);
+}

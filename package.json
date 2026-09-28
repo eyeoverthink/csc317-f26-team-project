@@ -1,0 +1,15 @@
+{
+  "name": "csc317-f26-team-project",
+  "version": "1.0.0",
+  "description": "CSC 317 Fall 2026 team project \u2014 grows across four milestones",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
